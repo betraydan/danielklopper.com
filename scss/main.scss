@@ -1,0 +1,118 @@
+
+// Vendor
+@import "vendor/bootstrap";
+
+// Partials
+// @import "partials/navigation";
+
+// Modules
+@import "modules/typography";
+
+// #Base
+// ===============================//
+
+body{
+	background: #D0D0D0;
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color:white;
+}
+
+header{
+	margin:50px 0 60px 0;
+	h1{
+		font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		font-weight: 600;
+		color: #353535;
+		letter-spacing: 0;
+		line-height: auto;
+		span{
+			display:block;
+			color: white;
+		}
+	}
+}
+
+.container{margin:0; width:auto;}
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 , p{
+	color: white;
+	font-weight: bold;
+	font-size:64px;
+	line-height:auto;
+	// letter-spacing: 0;
+}
+
+p { 
+	margin: 0 0 50px 0; 
+	font-family: "Begum-Regular" , -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+
+}
+.small{ font-size: 16px; margin: 0 0 20px 0; line-height:24px; font-weight:300; i {font-style:normal;}}
+
+
+
+/* #Links
+================================================== */
+a, .txt-link {
+	text-decoration: none; 
+	outline: 0; 
+	color:white; 
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+a:hover, a:focus { color: #101010;}
+a.txt-link {
+	text-decoration: underline; 
+	outline: 0; 
+	color:white; 
+	&:hover{
+		text-decoration: none; 
+		color:white;
+	}
+}
+ul.links{
+	padding:0;
+	margin:40px 0 100px 0;
+	li{
+		display:inline;
+		padding: 0 40px 0 0;
+		a{
+			font-size:18px;
+			font-weight: 500;
+			letter-spacing:0.42px;
+			&:hover{
+				color:#1d1d1d;
+			}
+		}
+	}
+}
+
+/* #Media Queries
+================================================== */
+
+@media(max-width:767px){
+		h1, h2, h3, h4, h5, h6 , p {font-size:42px;}
+		p {margin:0 0 32px 0;}
+	}
+
+@media (max-width: 576px) {
+	h1, h2, h3, h4, h5, h6 , p {font-size:32px;}
+	p {margin:0 0 22px 0;}
+}
+
+@media (max-width: 500px) {
+	h1, h2, h3, h4, h5, h6 , p {font-size:32px;}
+	p {margin:0 0 22px 0;}
+}
+
+
+
+
+
+
+
