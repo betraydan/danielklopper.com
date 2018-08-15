@@ -9,16 +9,6 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/fonts\/Begum-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -360,19 +350,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/scss\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/main.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
-		},
 	"\/scss\/modules\/_color.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -395,19 +372,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/modules\/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/modules\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/modules\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
